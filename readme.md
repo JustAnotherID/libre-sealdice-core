@@ -1,11 +1,11 @@
-# SealDice
+# Libre Sealdice Core
 
-![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)
-![Core](https://img.shields.io/badge/SealDice-Core-blue)
+[![License: AGPL v3](https://img.shields.io/badge/License-AGPL%20v3-brightgreen.svg)](https://www.gnu.org/licenses/agpl-3.0)
+![LibreCore](https://img.shields.io/badge/SealDice-LibreCore-blue)
 
-海豹 TRPG 骰点核心，开源跑团辅助工具，支持 QQ/Kook/Discord 等。
+[海豹核心](https://github.com/sealdice/sealdice-core) 的 AGPLv3 分叉，提供基于 LagrangeGo 的内置客户端支持。
 
-轻量 · 易用 · 全能
+由于包括了对 [LagrangeGo](https://github.com/LagrangeDev/LagrangeGo) 的直接引入，受到上游协议限制而进行分叉。
 
 ## 文档
 
@@ -13,14 +13,16 @@
 
 ## SealDice Project
 
-- [核心](https://github.com/sealdice/sealdice-core)（本仓库）：Go 后端代码仓库，也作为海豹的主仓库，Bug 可反馈在该仓库的 issue 中；
+- [Libre 核心(AGPLv3)](https://github.com/sealdice/sealdice-core)（本仓库）：AGPLv3 开源的 Go 后端代码仓库，包括对 LagrangeGo 的直接引入；
+- [核心(MIT)](https://github.com/sealdice/sealdice-core)：MIT 开源的 Go 后端代码仓库，也作为海豹的主仓库，Bug 可反馈在该仓库的 issue 中；
+- [Libre UI](https://github.com/sealdice/libre-sealdice-ui)：Libre 前端代码，包括了 Libre 核心对应的前端内容，但本身依然是 MIT 开源，基于 Vue3 + ElementPlus 开发；
 - [UI](https://github.com/sealdice/sealdice-ui)：前端代码，基于 Vue3 + ElementPlus 开发；
 - [手册](https://github.com/sealdice/sealdice-manual-next)：官方手册源码，由 VitePress 驱动；
 - [构建](https://github.com/sealdice/sealdice-build)：自动构建仓库，用于自动化发布海豹的每日构建包与 Release；
 - [Android](https://github.com/sealdice/sealdice-android)：Android 应用源码；
 - ……
 
-注：如无特殊说明，所有代码文件均遵循 MIT 开源协议
+注：如无特殊说明，所有代码文件均遵循 AGPLv3 开源协议
 
 ## Core 开发环境搭建
 
